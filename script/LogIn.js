@@ -3,3 +3,7 @@ function toDiningLocations() {
   //alert("hello world");
   window.location.href = "DiningLocations.html";
 }
+
+function toCreateAccount() {
+  window.location.href = "CreateAccount.html";
+}
