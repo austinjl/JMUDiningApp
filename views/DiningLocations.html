@@ -1,227 +1,206 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<title>JMU Dining</title>
+	  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<head>
-	<title>JMU Dining</title>
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	  <link rel="stylesheet" href="../css/DiningLocations.css">
+	</head>
 
-  <link rel="stylesheet" href="../css/DiningLocations.css">
-
-</head>
-
-<body>
-  <div style="padding: 30px">
-    <div class="row">
-      <div class="col-sm-3 d-flex align-items-stretch" style="padding: 10px">
-          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
-            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
-              <div class="card-block">
-                <h4 class="card-title">Freshens Fresh Food Studio in D-Hall</h4>
-                <p class="card-text">150 Bluestone Drive, 1st Floor Harrisonburg, VA 22807</p>
-                <a href="#" class="btn btn-primary">View Menu</a>
-								<br />
-								<br />
-								<div class="hours">
-									<p class="left">Mon - Thu</p> <p class="right">11:00AM - 9:30PM</p> <br />
-									<p class="left">Fri</p> <p class="right">11:00AM - 3:00PM</p> <br />
-									<p class="left">Sat - Sun</p> <p class="right">CLOSED</p>
-								</div>
-            </div>
-          </div>
-      </div>
-      <div class="col-sm-3 d-flex align-items-stretch" style="padding: 10px">
-          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
-            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
-              <div class="card-block">
-                <h4 class="card-title">Qdoba</h4>
-                <p class="card-text">150 Bluestone Drive, 1st Floor Harrisonburg, VA 22807</p>
-                <a href="#" class="btn btn-primary">View Menu</a>
-								<br />
-								<br />
-								<div class="hours">
-									<p class="left">Mon - Thu</p> <p class="right">11:00AM - 8:00PM</p> <br />
-									<p class="left">Fri</p> <p class="right">11:00AM - 3:00PM</p> <br />
-									<p class="left">Sat</p> <p class="right">CLOSED</p> <br />
-									<p class="left">Sun</p> <p class="right">12:00PM - 7:00PM</p>
-								</div>
-            </div>
-          </div>
-      </div>
-      <div class="col-sm-3 d-flex align-items-stretch" style="padding: 10px">
-          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
-            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
-              <div class="card-block">
-                <h4 class="card-title">Steak 'n Shake</h4>
-                <p class="card-text">150 Bluestone Drive, 1st Floor Harrisonburg, VA 22807</p>
-                <a href="#" class="btn btn-primary">View Menu</a>
-								<br />
-								<br />
-								<div class="hours">
-									<p class="left">Mon - Sun</p> <p class="right">12:00AM - 2:00AM</p> <br />
-									<p class="left">Mon - Sun</p> <p class="right">11:00AM - 12:00AM</p> <br />
-								</div>
-            </div>
-          </div>
-      </div>
-      <div class="col-sm-3 d-flex align-items-stretch" style="padding: 10px">
-          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
-            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
-              <div class="card-block">
-                <h4 class="card-title">Auntie Anne's</h4>
-                <p class="card-text">261 Warren Service Drive Harrisonburg, VA 22807</p>
-                <a href="#" class="btn btn-primary">View Menu</a>
-								<br />
-								<br />
-								<div class="hours">
-									<p class="left">Mon - Fri</p> <p class="right">9:00AM - 9:00AM</p> <br />
-									<p class="left">Sat - Sun</p> <p class="right">CLOSED</p>
-								</div>
-            </div>
-          </div>
-      </div>
-      <div class="col-md-3 d-flex align-items-stretch" style="padding: 10px">
-          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
-            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
-              <div class="card-block">
-                <h4 class="card-title">Bistro 1908 ft. Food Local</h4>
-                <p class="card-text">738 South Main Street Harrisonburg, VA 22807</p>
-                <a href="#" class="btn btn-primary">View Menu</a>
-								<br />
-								<br />
-								<div class="hours">
-									<p class="left">Mon - Thu</p> <p class="right">8:00AM - 8:30PM</p> <br />
-									<p class="left">Fri</p> <p class="right">8:00AM - 3:00PM</p> <br />
-									<p class="left">Sat - Sun</p> <p class="right">CLOSED</p>
-								</div>
-            </div>
-          </div>
-      </div>
-      <div class="col-md-3 d-flex align-items-stretch" style="padding: 10px">
-          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
-            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
-              <div class="card-block">
-                <h4 class="card-title">Market 64</h4>
-                <p class="card-text">150 Bluestone Drive, 1st Floor Harrisonburg, VA 22807</p>
-                <a href="#" class="btn btn-primary">View Menu</a>
-								<br />
-								<br />
-								<div class="hours">
-									<p class="left">Mon - Thu</p> <p class="right">7:30AM - 8:30PM</p> <br />
-									<p class="left">Fri</p> <p class="right">7:30AM - 7:00PM</p> <br />
-									<p class="left">Sat - Sun</p> <p class="right">11:00AM - 8:30PM</p>
-								</div>
-            </div>
-          </div>
-      </div>
-      <div class="col-md-3 d-flex align-items-stretch" style="padding: 10px">
-          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
-            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
-              <div class="card-block">
-                <h4 class="card-title">Chick-fil-A in D-Hub</h4>
-                <p class="card-text">771 Duke Drive Harrisonburg, VA 22807</p>
-                <a href="#" class="btn btn-primary">View Menu</a>
-								<br />
-								<br />
-								<div class="hours">
-									<p class="left">Mon - Thu</p> <p class="right">11:00AM - 8:00PM</p> <br />
-									<p class="left">Fri</p> <p class="right">11:00AM - 2:00PM</p> <br />
-									<p class="left">Sat - Sun</p> <p class="right">CLOSED</p>
-								</div>
-            </div>
-          </div>
-      </div>
-      <div class="col-md-3 d-flex align-items-stretch" style="padding: 10px">
-          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
-            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
-              <div class="card-block">
-                <h4 class="card-title">Chick-fil-A in D-Hall</h4>
-                <p class="card-text">150 Bluestone Drive, 1st Floor Harrisonburg, VA 22807</p>
-                <a href="#" class="btn btn-primary">View Menu</a>
-								<br />
-								<br />
-								<div class="hours">
-									<p class="left">Mon - Thu</p> <p class="right">9:00AM - 10:00PM</p> <br />
-									<p class="left">Fri</p> <p class="right">9:00AM - 9:00PM</p> <br />
-									<p class="left">Sat</p> <p class="right">11:00AM - 9:00PM</p> <br />
-									<p class="left">Sun</p> <p class="right">CLOSED</p>
-								</div>
-            </div>
-          </div>
-      </div>
-      <div class="col-md-3 d-flex align-items-stretch" style="padding: 10px">
-          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
-            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
-              <div class="card-block">
-                <h4 class="card-title">Food Truck Station</h4>
-                <p class="card-text">Bridgeforth Stadium Breezeway Harrisonburg, VA 22807</p>
-                <a href="#" class="btn btn-primary">View Menu</a>
-								<br />
-								<br />
-								<div class="hours">
-									<p class="left">Mon - Thu</p> <p class="right">11:00AM - 6:00PM</p> <br />
-									<p class="left">Fri</p> <p class="right">11:00AM - 4:00PM</p> <br />
-									<p class="left">Sat - Sun</p> <p class="right">CLOSED</p>
-								</div>
-            </div>
-          </div>
-      </div>
-      <div class="col-md-3 d-flex align-items-stretch" style="padding: 10px">
-          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
-            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
-              <div class="card-block">
-                <h4 class="card-title">Madison Grill</h4>
-                <p class="card-text">170 Bluestone Drive Harrisonburg, VA 22807</p>
-                <a href="#" class="btn btn-primary">View Menu</a>
-								<br />
-								<br />
-								<div class="hours">
-									<p class="left">Mon - Fri</p> <p class="right">11:00AM - 2:00PM</p> <br />
-									<p class="left">Mon - Fri</p> <p class="right">5:00PM - 8:30PM</p> <br />
-									<p class="left">Sat - Sun</p> <p class="right">CLOSED</p>
-								</div>
-            </div>
-          </div>
-      </div>
-      <div class="col-md-3 d-flex align-items-stretch" style="padding: 10px">
-          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
-            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
-              <div class="card-block">
-                <h4 class="card-title">Subway ft. P.O.D.</h4>
-                <p class="card-text">42 West Grace Street Harrisonburg, VA 22807</p>
-                <a href="#" class="btn btn-primary">View Menu</a>
-								<br />
-								<br />
-								<div class="hours">
-									<p class="left">Mon - Fri</p> <p class="right">10:00AM - 7:00PM</p> <br />
-									<p class="left">Sat - Sun</p> <p class="right">CLOSED</p>
-								</div>
-            </div>
-          </div>
-      </div>
-      <div class="col-md-3 d-flex align-items-stretch" style="padding: 10px">
-          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
-            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
-              <div class="card-block">
-                <h4 class="card-title">Freshens Fresh Food Studio in UREC Café</h4>
-                <p class="card-text">701 Driver Drive Harrisonburg, VA 22807</p>
-                <a href="#" class="btn btn-primary">View Menu</a>
-								<br />
-								<br />
-								<div class="hours">
-									<p class="left">Mon - Thu</p> <p class="right">7:30AM - 11:00PM</p> <br />
-									<p class="left">Fri</p> <p class="right">7:30AM - 7:30PM</p> <br />
-									<p class="left">Sat - Sun</p> <p class="right">CLOSED</p>
-								</div>
-            </div>
-          </div>
-      </div>
-    </div>
-  </div>
-</body>
+	<body>
+	  <div style="padding: 30px">
+	    <div class="row">
+				<div class="col-sm-10 offset-sm-1">
+	      	<div class="card-deck g-mx-20 g-my-20">
+	          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
+	            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
+	              <div class="card-block">
+	                <h4 class="card-title">Freshens Fresh Food Studio in D-Hall</h4>
+	                <p class="card-text">150 Bluestone Drive, 1st Floor Harrisonburg, VA 22807</p>
+	                <a href="#" class="btn btn-primary">View Menu</a>
+									<br />
+									<br />
+									<div class="hours">
+										<p class="left">Mon - Thu</p> <p class="right">11:00AM - 9:30PM</p> <br />
+										<p class="left">Fri</p> <p class="right">11:00AM - 3:00PM</p> <br />
+										<p class="left">Sat - Sun</p> <p class="right">CLOSED</p>
+									</div>
+	            </div>
+	          </div>
+	          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
+	            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
+	              <div class="card-block">
+	                <h4 class="card-title">Qdoba</h4>
+	                <p class="card-text">150 Bluestone Drive, 1st Floor Harrisonburg, VA 22807</p>
+	                <a href="#" class="btn btn-primary">View Menu</a>
+									<br />
+									<br />
+									<div class="hours">
+										<p class="left">Mon - Thu</p> <p class="right">11:00AM - 8:00PM</p> <br />
+										<p class="left">Fri</p> <p class="right">11:00AM - 3:00PM</p> <br />
+										<p class="left">Sat</p> <p class="right">CLOSED</p> <br />
+										<p class="left">Sun</p> <p class="right">12:00PM - 7:00PM</p>
+									</div>
+	            </div>
+	          </div>
+	          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
+	            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
+	              <div class="card-block">
+	                <h4 class="card-title">Steak 'n Shake</h4>
+	                <p class="card-text">150 Bluestone Drive, 1st Floor Harrisonburg, VA 22807</p>
+	                <a href="#" class="btn btn-primary">View Menu</a>
+									<br />
+									<br />
+									<div class="hours">
+										<p class="left">Mon - Sun</p> <p class="right">12:00AM - 2:00AM</p> <br />
+										<p class="left">Mon - Sun</p> <p class="right">11:00AM - 12:00AM</p> <br />
+									</div>
+	            </div>
+	          </div>
+	          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
+	            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
+	              <div class="card-block">
+	                <h4 class="card-title">Auntie Anne's</h4>
+	                <p class="card-text">261 Warren Service Drive Harrisonburg, VA 22807</p>
+	                <a href="#" class="btn btn-primary">View Menu</a>
+									<br />
+									<br />
+									<div class="hours">
+										<p class="left">Mon - Fri</p> <p class="right">9:00AM - 9:00AM</p> <br />
+										<p class="left">Sat - Sun</p> <p class="right">CLOSED</p>
+									</div>
+	            </div>
+	          </div>
+	          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
+	            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
+	              <div class="card-block">
+	                <h4 class="card-title">Bistro 1908 ft. Food Local</h4>
+	                <p class="card-text">738 South Main Street Harrisonburg, VA 22807</p>
+	                <a href="#" class="btn btn-primary">View Menu</a>
+									<br />
+									<br />
+									<div class="hours">
+										<p class="left">Mon - Thu</p> <p class="right">8:00AM - 8:30PM</p> <br />
+										<p class="left">Fri</p> <p class="right">8:00AM - 3:00PM</p> <br />
+										<p class="left">Sat - Sun</p> <p class="right">CLOSED</p>
+									</div>
+	            </div>
+	          </div>
+	          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
+	            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
+	              <div class="card-block">
+	                <h4 class="card-title">Market 64</h4>
+	                <p class="card-text">150 Bluestone Drive, 1st Floor Harrisonburg, VA 22807</p>
+	                <a href="#" class="btn btn-primary">View Menu</a>
+									<br />
+									<br />
+									<div class="hours">
+										<p class="left">Mon - Thu</p> <p class="right">7:30AM - 8:30PM</p> <br />
+										<p class="left">Fri</p> <p class="right">7:30AM - 7:00PM</p> <br />
+										<p class="left">Sat - Sun</p> <p class="right">11:00AM - 8:30PM</p>
+									</div>
+	            </div>
+	          </div>
+	          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
+	            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
+	              <div class="card-block">
+	                <h4 class="card-title">Chick-fil-A in D-Hub</h4>
+	                <p class="card-text">771 Duke Drive Harrisonburg, VA 22807</p>
+	                <a href="#" class="btn btn-primary">View Menu</a>
+									<br />
+									<br />
+									<div class="hours">
+										<p class="left">Mon - Thu</p> <p class="right">11:00AM - 8:00PM</p> <br />
+										<p class="left">Fri</p> <p class="right">11:00AM - 2:00PM</p> <br />
+										<p class="left">Sat - Sun</p> <p class="right">CLOSED</p>
+									</div>
+	            </div>
+	          </div>
+	          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
+	            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
+	              <div class="card-block">
+	                <h4 class="card-title">Chick-fil-A in D-Hall</h4>
+	                <p class="card-text">150 Bluestone Drive, 1st Floor Harrisonburg, VA 22807</p>
+	                <a href="#" class="btn btn-primary">View Menu</a>
+									<br />
+									<br />
+									<div class="hours">
+										<p class="left">Mon - Thu</p> <p class="right">9:00AM - 10:00PM</p> <br />
+										<p class="left">Fri</p> <p class="right">9:00AM - 9:00PM</p> <br />
+										<p class="left">Sat</p> <p class="right">11:00AM - 9:00PM</p> <br />
+										<p class="left">Sun</p> <p class="right">CLOSED</p>
+									</div>
+	            </div>
+	          </div>
+	          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
+	            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
+	              <div class="card-block">
+	                <h4 class="card-title">Food Truck Station</h4>
+	                <p class="card-text">Bridgeforth Stadium Breezeway Harrisonburg, VA 22807</p>
+	                <a href="#" class="btn btn-primary">View Menu</a>
+									<br />
+									<br />
+									<div class="hours">
+										<p class="left">Mon - Thu</p> <p class="right">11:00AM - 6:00PM</p> <br />
+										<p class="left">Fri</p> <p class="right">11:00AM - 4:00PM</p> <br />
+										<p class="left">Sat - Sun</p> <p class="right">CLOSED</p>
+									</div>
+	            </div>
+	          </div>
+	          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
+	            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
+	              <div class="card-block">
+	                <h4 class="card-title">Madison Grill</h4>
+	                <p class="card-text">170 Bluestone Drive Harrisonburg, VA 22807</p>
+	                <a href="#" class="btn btn-primary">View Menu</a>
+									<br />
+									<br />
+									<div class="hours">
+										<p class="left">Mon - Fri</p> <p class="right">11:00AM - 2:00PM</p> <br />
+										<p class="left">Mon - Fri</p> <p class="right">5:00PM - 8:30PM</p> <br />
+										<p class="left">Sat - Sun</p> <p class="right">CLOSED</p>
+									</div>
+	            </div>
+	          </div>
+	          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
+	            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
+	              <div class="card-block">
+	                <h4 class="card-title">Subway ft. P.O.D.</h4>
+	                <p class="card-text">42 West Grace Street Harrisonburg, VA 22807</p>
+	                <a href="#" class="btn btn-primary">View Menu</a>
+									<br />
+									<br />
+									<div class="hours">
+										<p class="left">Mon - Fri</p> <p class="right">10:00AM - 7:00PM</p> <br />
+										<p class="left">Sat - Sun</p> <p class="right">CLOSED</p>
+									</div>
+	            </div>
+	          </div>
+	          <div class="card card-inverse card-primary text-center"  style="padding: 10px">
+	            <img class="card-img-top" src="../assets/jmu.jpg" alt="Card image cap">
+	              <div class="card-block">
+	                <h4 class="card-title">Freshens Fresh Food Studio in UREC Café</h4>
+	                <p class="card-text">701 Driver Drive Harrisonburg, VA 22807</p>
+	                <a href="#" class="btn btn-primary">View Menu</a>
+									<br />
+									<br />
+									<div class="hours">
+										<p class="left">Mon - Thu</p> <p class="right">7:30AM - 11:00PM</p> <br />
+										<p class="left">Fri</p> <p class="right">7:30AM - 7:30PM</p> <br />
+										<p class="left">Sat - Sun</p> <p class="right">CLOSED</p>
+									</div>
+		            </div>
+		          </div>
+			      </div>
+					</div>
+				</div>
+	    </div>
+	  </div>
+	</body>
 </html>
