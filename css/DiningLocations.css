@@ -32,3 +32,29 @@
 .card {
   max-width: 300px;
 }
+
+
+.bg-dark {
+  background-color: #450084 !important;
+}
+
+.navbar-dark .navbar-brand {
+  color: #CBB677;
+  font-size: 30px;
+}
+
+.navbar-dark .navbar-brand:hover {
+  color: #AD9C65;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #CBB677;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #AD9C65;
+}
+
+.heading {
+  text-align: center;
+}
